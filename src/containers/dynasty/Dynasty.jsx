@@ -1,10 +1,11 @@
-import React from 'react'
-import './dynasty.css'
+import React from 'react';
+import dynasty_pic from '../../assets/5.png';
+import './dynasty.css';
 
 const Dynasty = () => {
     return (
-        <div>
-            Dynasty
+        <div id="dynasty" className="dynasty">
+            <img src={dynasty_pic} alt="Meta Dynasty" />
         </div>
     )
 }
