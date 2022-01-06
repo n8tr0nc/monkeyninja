@@ -1,6 +1,6 @@
-export { default as About } from './about/About';
-export { default as Blog } from './blog/Blog';
-export { default as Features } from './features/Features';
-export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
-export { default as Possibility } from './possibility/Possibility';
+export { default as About } from './about/About';
+export { default as Utility } from './utility/Utility';
+export { default as Dynasty } from './dynasty/Dynasty';
+export { default as Tokenomics } from './tokenomics/Tokenomics';
+export { default as Footer } from './footer/Footer';

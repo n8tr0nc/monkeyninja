@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 import './navbar.css';
 
 const Navbar = () => {
-    const [toggleMenu, setToggleMenu] = useState(flase);
+    {/*const [toggleMenu, setToggleMenu] = useState(flase);*/}
 
     return (
         <div className="gpt3__navbar">
@@ -13,20 +13,20 @@ const Navbar = () => {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className="gpt3__navbar-links_container">
-                    <p><a href="#fivestars">Five Stars</a></p>
-                    <p><a href="#services">Services</a></p>
-                    <p><a href="#clients">Clients</a></p>
-                    <p><a href="#insights">Insights</a></p>
-                    <p><a href="#gmb">Google My Business</a></p>
+                    <p><a href="#about">About</a></p>
+                    <p><a href="#utility">NFT Utility</a></p>
+                    <p><a href="#dynasty">Meta Dynasty</a></p>
+                    <p><a href="#tokenomics">Tokenomics</a></p>
+                    <p><a href="#authenticate">Authenticate</a></p>
                 </div>
             </div>
-            <div className="gpt3__navbar-sign">
+            {/*<div className="gpt3__navbar-sign">
                 <p>Sign In</p>
                 <button type="button">Sign Up</button>
-            </div>
-            <div className="gpt3__navbar-menu">
+            </div>*/}
+            {/*<div className="gpt3__navbar-menu">
                 {toggleMenu}
-            </div>
+            </div>*/}
         </div>
     )
 }
