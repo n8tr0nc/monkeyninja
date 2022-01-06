@@ -6,6 +6,7 @@
     position: fixed;
     width: 100%;
     background: var(--color-bg);
+    box-shadow: 0 0 8px 0;
 }
 
 .navbar-links {
