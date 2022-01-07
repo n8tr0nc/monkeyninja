@@ -1,9 +1,19 @@
 .tokenomics {
-
 }
 
 .tokenomics img {
-    width: 100%;
-    padding: 5rem 6.4rem;
-    margin: 4rem 0;
+  width: 100%;
+  padding: 8rem 6.4rem;
+}
+
+@media screen and (max-width: 700px) {
+  .tokenomics img {
+    padding: 6rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .tokenomics img {
+    padding: 4rem 1rem;
+  }
 }
